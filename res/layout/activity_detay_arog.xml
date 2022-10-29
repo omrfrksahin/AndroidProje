@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityArog">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="AROG"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/arogy"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImg"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkında"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Gerek rahmetli Sadri Alışık'ın Turist Ömer'ine yaptığı saygılı ve zeki göndermelerle, gerekse de Uzay Yolu, Starwars, Flintstone benzeri kült yapımların parodilerini Türk tipi uzay filmi konseptine çevirebilmesindeki becerisiyle, Cem Yılmaz'ın çektiği hemen her filmin fenomen haline gelmesi adeta sıradan bir durum haline geldi. İşte, Ali Taner Baltacı ile Cem Yılmaz'ın yönettiği A.R.O.G: Bir Yontmataş Filmi de, Fida Film CMYLMZ Fikirsanat tarafından vizyona çıkarıldığında sinemaseverlerin büyük ilgisi ile karşılaştı. A.R.O.G.'un ilk 3 dakika'sının çekimleri İstanbul Film Stüdyolarında hazırlanan özel dekorlarda gerçekleşti. Filmde kullanılan yaratık için Anima stüdyolarında pek çok sayıda maket çalışması yapıldı. Uzaktan kumanda ile hareketli hazırlanan yaratığın modellemesi ve üretimi toplam iki ay sürdü. Filmde, G.O.R.A gezegeninde tutsak olan Arif’e büyük kin besleyen Komutan Logar, onu zaman makinesiyle bir milyon yıl öncesine gönderir. Taş Devri insanları, dinozorlar ve prehistorik kuşların yer aldığı komedide Arif’in komik serüvenleri tüm hızıyla devam etmekte." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncular"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResim"
+                android:textColor="#000000"
+                android:text="Cem Yılmaz, Özge Özberk, Charles Carroll, Ozan Güven, Zafer Algöz, Nil Karaibrahimgil, Özkan Uğur"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideo"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityEfsane">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="EFSANE"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/efsaney"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgEfsane"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaEfsane"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaEfsane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1950-1960 yılları arasında Londra'da geçen filmde Ronald ve Reginald Kray adlı ikiz kardeşler şehri hakimiyeti altına alan ünlü bir çetenin liderleridir. Her geçen gün güçlerine güç katan ikiz gansterler, daha fazla bölge ve paraya sahip olmaktadırlar. Ancak bu yükseliş Reggie'nin karısı Frances'in ortaya çıkmasıyla tehlikeye girecektir. Frances kocasını işi bırakması için ikna etmeye çalışınca ortaklıkları ve The Firm imparatorluğu yıkılmanın eşiğine gelir..." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularEfsane"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimEfsane"
+                android:textColor="#000000"
+                android:text="Tom Hardy, Emily Browning, Paul Anderson"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideEfsane"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

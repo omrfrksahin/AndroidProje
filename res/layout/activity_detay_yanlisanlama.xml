@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityYanlisanlama">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="YANLIŞ ANLAMA"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/yanlisanlamay"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgYanlisanlama"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaYanlisanlama"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaYanlisanlama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Türkiye’de zor duruma düşmüş bir aile, kendilerine Azerbaycan’dan kalan miras için kalkar, Bakü’ye gider. Azeri ve Türk aile, mirası alabilmek için onlara verilen listedeki maddeleri birlikte yapmak zorundadır. Türk oyuncular ve Azerbaycan’ın en iyi oyuncuları Ferda Amin, İslam Mehreliyev’in de yer aldığı macera başlar. Ama gel gör ki iki aile birbiriyle bir türlü anlaşamaz. İstanbul’un tarihi semtlerinde başlayıp, Azerbaycan’ın benzersiz şehri Bakü sokaklarına uzanan bu macerada, bizi bol kahkaha, aksiyon, dram ve aşk bekliyor." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularYanlisanlama"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimYanlisanlama"
+                android:textColor="#000000"
+                android:text="Şevket Çoruh, İlker Ayrık, Hakan Bilgin, Bahadır Efe, Duygu Karaca, Pelin Sönmez, Pervin Abiyeva, Islam Mehreliyev, Ferda Amin, İlhan Daner, Ferda Xuadaverdiyev"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoYanlisanlama"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityMeteler">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="METELER"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/metelery"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgMeteler"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaMeteler"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaMeteler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Meteler, Yüzbaşı Kürşad ve 8 askerin yer aldığı Meteler timinin teröristlerle verdiği mücadeleyi konu ediyor. Afrin operasyonunun 43. gününde Meteler timi, canları pahasına bölgede bulunan teröristler ve onlara destek veren yabancı unsurlarla zorlu bir mücadeleye girişir. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularMeteler"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimMeteler"
+                android:textColor="#000000"
+                android:text="Gökhan Mumcu, Temmuz Gürkan Karaca, Cem Okyay, Mert Temizce, Serhan Çeliker, Nazım Atçı, Burak Akbulut, Mete Deran, Kerem Tanık"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoMeteler"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

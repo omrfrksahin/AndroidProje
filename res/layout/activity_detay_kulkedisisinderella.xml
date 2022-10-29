@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityKulkedisisinderella">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="KÜL KEDİSİ SİNDERELLA"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/kulkedisisinderellay"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgKulkedisisinderella"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaKulkedisisinderella"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaKulkedisisinderella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Yapım ve yönetmenliğini Süreyya Duru'nun üstlendiği 1971 yapımı Türk filmidir. Filmin senaristi Hamdi Değirmencioğlu'dur. Filmin başrol oyuncusu Zeynep Değirmencioğlu'dur Perrault'un Kül kedisi adlı masalından uyarlanmıştır." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularKulkedisisinderella"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimKulkedisisinderella"
+                android:textColor="#000000"
+                android:text=" Zeynep Değirmencioğlu, Suna Selen, Seden Kızıltunç, Reşit Çildam, Gani Dede, Sinan Ecer, Nermin Altıok, Nermin Altınses, Hikmet Gül"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoKulkedisisinderella"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

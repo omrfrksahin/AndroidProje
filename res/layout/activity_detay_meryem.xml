@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityMeryem">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="MERYEM"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/meryemy"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgMeryem"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaMeryem"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaMeryem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Anadolu'nun küçük bir kasabasında yaşayan ve güzelliği herkesin dilinde olan Meryem, kasabadan bir ailenin İstanbul'da yaşayan oğlulları Mustafa ile evlendirilir. Birkaç gün sonra İstanbul'a dönen Mustafa'nın ailesiyle yalnız kalan Meryem onlara hizmet etmeye başlar. Kayınpederi ölmüş babasının arkadaşı olan Meryem yalnız kaldığı bu evde umutsuzluğa kapılsa da annesi ona sabırlı olmasını söyler. Murat ise askere gitmeden önce Meryem'e aşık bir gençtir. Murat köye geri döndüğünde artık Meryem için bir tehdit oluşturuyordur. Durumu anlayan kayınpeder Meryem'i İstanbul'a yollamaya karar verir. Yapılan hazırlıklardan sonra herkesi farklı bir son beklemektedir." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularMeryem"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimMeryem"
+                android:textColor="#000000"
+                android:text="Zeynep Çamcı, İsmail Hacıoğlu, Mustafa Uzunyılmaz, Zerrin Sümer"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoMeryem"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

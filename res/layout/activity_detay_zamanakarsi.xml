@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivityZamanakarsi">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="ZAMANA KARŞI"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/zamanakarsiy"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgZamanakarsi"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaZamanakarsi"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaZamanakarsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="25 yaşına gelen insanların, yaşlanmayı durdurmak için var güçleriyle çalışmak zorunda olduğu bir gelecekte geçen filmde, zaman gerçekten para ve güç demek.Will Salas (Justin Timberlake), bir hata sonucu cinayetten hüküm giyer ve hapishaneden kurtulmak için tek şansı gerçek yüzünü gördüğü sistemi çökertmektir. Zira zamanın rahatlıkla satın alınabildiği bu sistemde zenginler sonsuza kadar genç kalarak yaşarken fakir ve güçsüz olan ise ölerek, elenir. Üstelik kendi yaşayamadıkları yıllar başkalarının hayatlarına eklenir. Güçsüz olanlar sadece bir gün daha hayatta kalabilmek için 'zaman' dilenir, ödünç alır hatta bazen zamanı çalar. Will Salas ise bütün bu yozlaşmış sisteme karşı baş kaldırır...Başrollerini son dönemde müzik çalışmalarına ara veren ve sinemaya yönelen Justin Timberlake ile yeni Scarlett Johansson olarak anılan Amanda Seyfried'in paylaştığı filmin yardımcı oyuncu kadrosunda ise Olivia Wilde, Alex Pettyfer, Cillian Murphy gibi isimler var.Daha önce Gattaca, S1m0ne ve Lord of War'ı hem yazıp hem yöneten, The Truman Show ve The Terminal gibi filmlerin senaryosunu kaleme alan Andrew Niccol'un son projesi büyük beklenti yaratıyor... " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularZamanakarsi"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimZamanakarsi"
+                android:textColor="#000000"
+                android:text="Amanda Seyfried, Justin Timberlake, Cillian Murphy"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoZamanakarsi"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

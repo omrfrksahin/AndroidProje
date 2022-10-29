@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivitycakallarladans5">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:text="ÇAKALLARAL DANS 5"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/cakallarladansy"
+                android:adjustViewBounds="true"
+                android:id="@+id/DetayImgCakallarladans5"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayHakkındaCakallarladans5"
+                android:text="HAKKINDA"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/DetayAçıklamaCakallarladans5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Çakallarla Dans 5, şartı tahliye ile salınan çakallar grubunun yasağı delip atıldıkları maceraları konu ediyor. Hakim karşısına geçen çakallar grubu birbirlerine 100 metre uzak kalma şartıyla tahliye olur. Fakat bu durum ekip için hiç de kolay değildir. Bu sırada Kayınço Gökhan’ın hayatı aldığı haberle bambaşka bir hal alır. Gökhan, yıllar önce yaşadığı tek gecelik bir ilişkiden çocuğu olduğunu öğrenir. Üstelik kızı Leyla, zengin ve züppe bir çocuk olan Sinan ile birliktedir. Gökhan henüz bir kızı olduğuna alışamamışken bir de Sinan’ı öğrenince deliye döner. Böyle bir çocuğun kızı ile olmasını gururuna yediremeyen Gökhan Sinan’la Leyla’yı ayırmaya karar verir. Bunu tek başına yapamayacağını anlayan Gökhan çakallar grubundan yardım ister. Yasağı delip bir araya gelen ekip Kayınço’nun kızını kurtarmak için eğlenceli bir maceraya atılır. 2010 yapımı Çakallarla Dans’ın beşinci devam halkası olan filmin yönetmen koltuğunda bir kez daha Murat Şeker oturuyor. Başrollerini Şevket Çoruh, İlker Ayrık, Murat Akkoyunlu, Timur Acar ve Didem Balçın’ın paylaştığı filmin oyuncu kadrosunda ayrıca Hande Katipoğlu, Hakan Bilgin, Ceyhun Yılmaz, Şebnem Dönmez gibi isimler yer alıyor." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayOyuncularCakallarladans5"
+                android:text="OYUNCULAR"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/DetayOyuncularResimCakallarladans5"
+                android:textColor="#000000"
+                android:text="Şevket Çoruh,İlker Ayrık,Timur Acar,Murat Akkoyunlu,Didem Balçın,Hande Katipoğlu,Hakan Bilgin,Ceyhun Yılmaz,Şebnem Dönmez,Naz Çağla Irmak,Uraz Kaygılaroğlu,Ali Barkın "
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/baslikgradient"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DetayVideoCakallarladans5"
+                android:text="VİDEO"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
